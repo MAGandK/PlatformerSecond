@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Ball
+  - Level
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - Background
+  - Level
+  - Trap
+  - Enemy
+  - Ball
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3522633211
+    locked: 0
+  - name: Grounded
+    uniqueID: 3323328177
+    locked: 0
+  - name: Player
+    uniqueID: 1023350243
+    locked: 0
+  - name: Object
+    uniqueID: 3116209337
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
