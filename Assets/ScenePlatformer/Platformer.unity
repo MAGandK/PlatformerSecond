@@ -1000,9 +1000,9 @@ GameObject:
   - component: {fileID: 394670051}
   - component: {fileID: 394670052}
   - component: {fileID: 394670053}
+  - component: {fileID: 394670056}
   - component: {fileID: 394670055}
   - component: {fileID: 394670054}
-  - component: {fileID: 394670056}
   - component: {fileID: 394670057}
   - component: {fileID: 394670058}
   m_Layer: 6
