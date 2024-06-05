@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class Enemy : MonoBehaviour
 {
@@ -43,7 +39,6 @@ public class Enemy : MonoBehaviour
             _isFlip = !_isFlip;
             transform.Rotate(0, 180, 0);
             SwitchTargetPosition();
-
     }
 
     private void SwitchTargetPosition()
@@ -58,5 +53,4 @@ public class Enemy : MonoBehaviour
         gameObject.SetActive(false);
         OnDieEnemy?.Invoke();
     }
-
 }

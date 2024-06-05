@@ -7,21 +7,18 @@ using PlayerSpasePlatformer;
 public class Ball : MonoBehaviour
 {
     [SerializeField] private float _ballSpeed = 10f;
-    
     private Rigidbody2D _rbBall;
-
-
-    private ShootingPlayer _shooting;
-    private void Start()
+    private ShootingPlayer _shootingPlayer;
+    
+    private void OnEnable()
     {
         _rbBall = GetComponent<Rigidbody2D>();
     }
-
     private void Update()
     {
           FlipBullet();
     }
-
+    
     public void FlipBullet()
     {
         if (Player.Instanse._isFlip)

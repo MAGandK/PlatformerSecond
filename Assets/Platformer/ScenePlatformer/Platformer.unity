@@ -1223,7 +1223,7 @@ MonoBehaviour:
   _ballToPool: {fileID: 8809345671397368814, guid: ad2f9499e905243f79ce6e9b099fc242, type: 3}
   _initialPoolSize: 15
   _shootingPoint: {fileID: 63199387}
-  _spawnInretval: 0.2
+  _spawnInretval: 0.3
 --- !u!1 &456105828
 GameObject:
   m_ObjectHideFlags: 0
@@ -10183,7 +10183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetTransform: {fileID: 394670049}
   _offset: {x: 12.4, y: 0, z: 0}
-  _smoothSpeed: 0.125
+  _smoothSpeed: 0.11
   _maxX: 55
 --- !u!1001 &1236126763
 PrefabInstance:
